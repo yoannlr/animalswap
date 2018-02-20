@@ -127,7 +127,7 @@ void draw() {
     m.missileDraw();
   }
   
-  ellipse(player_x, player_y, 30, 30);
+  image(sprites.get("trump0"), player_x, player_y);
 }
 
 void keyPressed() {
